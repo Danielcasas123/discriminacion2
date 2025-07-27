@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Apoyo contra la Discriminación</title>
+  <link rel="stylesheet" href="c..css">
+</head>
+<body>
+
+  <h1>Di NO a la Discriminación</h1>
+  <form id="discriminacionForm">
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="tipo">Tipo de discriminación:</label>
+    <select id="tipo" required>
+      <option value="">--Selecciona una--</option>
+      <option value="Racial">Racial</option>
+      <option value="Género">Por género</option>
+      <option value="Orientación sexual">Por orientación sexual</option>
+      <option value="Religión">Por religión</option>
+      <option value="Discapacidad">Por discapacidad</option>
+      <option value="Edad">Por edad</option>
+    </select>
+
+    <button type="submit">Obtener ayuda</button>
+  </form>
+
+  <div class="resultado" id="resultado" style="display:none;"></div>
+
+  <script src="j.js"></script>
+</body>
+</html>
+ 
